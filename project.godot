@@ -10,7 +10,9 @@ config_version=5
 
 [application]
 
-config/name="Text Adventure"
+config/name="AshTry"
+config/description="Retro text adventure game created with Godot engine."
+config/version="0.1"
 run/main_scene="res://control.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
@@ -18,6 +20,10 @@ config/icon="res://icon.svg"
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/gut/plugin.cfg")
+
+[filesystem]
+
+import/blender/enabled=false
 
 [rendering]
 

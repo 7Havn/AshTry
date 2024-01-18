@@ -22,10 +22,12 @@ func parse(text):
 
 	elif lowerText in ['look around', 'look']:
 		return InstructionS.LOOK
+	elif lowerText in ['check inventory', 'inventory']:
+		return InstructionS.INVENTORY
 	elif lowerText in ['help', 'help me']:
 		return InstructionS.HELP
 
-	elif lowerText == 'reset game':
+	elif lowerText == 'reset':
 		return InstructionS.RESET
 	elif lowerText in ['quit', 'exit']:
 		return InstructionS.QUIT

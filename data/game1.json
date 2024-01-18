@@ -1,10 +1,11 @@
 {
 	"room1": {
-		"intro" : "You are in a room with a fireplace with a roaring fire and a old oak table. It is otherwise empty.",
+		"intro" : "You are in a room with a fireplace with a roaring fire and a old oak table. It is otherwise empty.\n",
 		"items" : {
-			"key123" : {
-				"description" : "You see a key on the oak table.",
-				"type" : "key",
+			"key_room1" : {
+				"description" : "Key found in room 1.",
+				"story" : "You see a key on the oak table.\n",
+				"type" : "Key",
 				"opens" : "north",
 				"name" : "key"
 			}
@@ -14,12 +15,12 @@
 				"description" : "Another room to the north.",
 				"destination" : "room2",
 				"locked" : true,
-				"key" : "key123"
+				"key" : "key_room1"
 			}
 		}
 	},
 	"room2": {
-		"intro" : "You are in a corridor with a door to the east",
+		"intro" : "You are in a corridor with a door to the east.\n",
 		"exits" : {
 			"south" : {
 				"description" : "South, back the way you came.",
@@ -32,7 +33,7 @@
 		}
 	},
 	"room3": {
-		"intro" : "This stone bricked room is empty.",
+		"intro" : "This stone bricked room is empty.\n",
 		"exits" : {
 			"west" : {
 				"description" : "West, back the way you came.",
