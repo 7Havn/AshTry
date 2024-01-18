@@ -1,3 +1,0 @@
-New function: Check inventory
-Bug fix: Game crashes when "get key" used outside of room1
-Code cleanup
